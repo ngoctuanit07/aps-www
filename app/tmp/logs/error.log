@@ -1,0 +1,269 @@
+2015-02-23 21:52:28 Error: [MissingActionException] Action AdminsController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'home',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-23 21:55:30 Error: [MissingActionException] Action AdminsController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'login',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-23 22:18:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:18:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 22:56:01 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 44121305 bytes) in [/var/www/aps-www/lib/Cake/Utility/Debugger.php, line 610]
+2015-02-23 22:56:01 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 44121305 bytes)
+Request URL: /admins/login
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/aps-ww...', 610)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/aps-ww...', 610, Array)
+#2 /var/www/aps-www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/aps-ww...', 610, Array)
+#3 /var/www/aps-www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-23 23:15:36 Error: [MissingViewException] View file "Admins/home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admins/home.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/aps-www/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-23 23:22:08 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /index.html
+Stack Trace:
+#0 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-23 23:24:31 Error: [MissingActionException] Action AdminsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'logout',
+)
+Request URL: /admins/logout
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-23 23:25:47 Error: [MissingViewException] View file "Pages/home.html.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/home.html.ctp',
+)
+Request URL: /pages/home.html
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/View/View.php(470): View->_getViewFileName('home.html')
+#1 /var/www/aps-www/lib/Cake/Controller/Controller.php(960): View->render('home.html', NULL)
+#2 /var/www/aps-www/app/Controller/PagesController.php(73): Controller->render('home.html')
+#3 [internal function]: PagesController->display('home.html')
+#4 /var/www/aps-www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-23 23:26:26 Error: [MissingViewException] View file "Pages/home.html.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/home.html.ctp',
+)
+Request URL: /pages/home.html
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/View/View.php(470): View->_getViewFileName('home.html')
+#1 /var/www/aps-www/lib/Cake/Controller/Controller.php(960): View->render('home.html', NULL)
+#2 /var/www/aps-www/app/Controller/PagesController.php(74): Controller->render('home.html')
+#3 [internal function]: PagesController->display('home.html')
+#4 /var/www/aps-www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/aps-www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /var/www/aps-www/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-23 23:44:20 Error: Fatal Error (1): Call to a member function count() on a non-object in [/var/www/aps-www/app/Controller/AdminsController.php, line 29]
+2015-02-23 23:44:20 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/aps-ww...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/aps-ww...', 29, Array)
+#2 /var/www/aps-www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/aps-ww...', 29, Array)
+#3 /var/www/aps-www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-23 23:48:36 Error: Fatal Error (1): Call to a member function count() on a non-object in [/var/www/aps-www/app/Controller/AdminsController.php, line 29]
+2015-02-23 23:48:36 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/aps-ww...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/aps-ww...', 29, Array)
+#2 /var/www/aps-www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/aps-ww...', 29, Array)
+#3 /var/www/aps-www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-23 23:48:41 Error: Fatal Error (1): Call to a member function count() on a non-object in [/var/www/aps-www/app/Controller/AdminsController.php, line 29]
+2015-02-23 23:48:41 Error: [FatalErrorException] Call to a member function count() on a non-object
+Request URL: /
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/aps-ww...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/aps-ww...', 29, Array)
+#2 /var/www/aps-www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/aps-ww...', 29, Array)
+#3 /var/www/aps-www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-23 23:49:42 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/aps-www/app/View/Layouts/default.ctp, line 39]
+2015-02-23 23:49:42 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/aps-www/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/aps-ww...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/aps-ww...', 39, Array)
+#2 /var/www/aps-www/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/aps-ww...', 39, Array)
+#3 /var/www/aps-www/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

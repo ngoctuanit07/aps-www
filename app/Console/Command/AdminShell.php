@@ -29,7 +29,7 @@ class AdminShell extends AppShell {
         );
         $this->hr();
         $this->Admin->begin();
-        $result = $this->Admin->saveAdmin($data);
+        $result = $this->Admin->save($data);
         if ($result ) {
             $this->Admin->commit();
             $this->out('<success>Succès</success> Administrateur créé');

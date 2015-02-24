@@ -1,4 +1,4 @@
-<?php
+    <?php
 /**
  * Application level Controller
  *
@@ -31,4 +31,25 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+    public $components = array(
+        'Auth',
+        'Session',
+    );
+
+    public function beforeFilter() {
+        $this->Auth->authenticate = array(
+        AuthComponent::ALL => array('userModel' => 'Admin'), // Modification de la table par défaut
+        'Basic',
+        'Form'
+        );
+
+
+        parent::beforeFilter();
+        
+        $this->Auth->loginAction = array( 'controller' => 'admins', 'action' => 'login');
+        $this->Auth->loginRedirect = array('controller' => 'admins', 'action' => 'home');
+        $this->Auth->logoutRedirect = array('controller' => 'pages', 'action' => 'display', 'home');
+    } // end function beforeFilter()
+
 }

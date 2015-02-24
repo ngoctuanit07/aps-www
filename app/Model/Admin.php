@@ -1,5 +1,7 @@
 <?php
 App::uses('AppModel', 'Model');
+App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
+
 /**
  * Admin Model
  *
@@ -91,5 +93,29 @@ class Admin extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+
+/**
+ * Fait quelques opérations avant la sauvegarde en base :
+ * - Chiffrage du mot de passe à sotcker
+ *
+ * @param array $options Options passed from Model::save().
+ * @return boolean TRUE si on peut effectuer la sauvegarde. FALSE sinon
+ */
+    public function beforeSave($options = array()) {
+        $return = parent::beforeSave($options);
+        $this->_hashPassword();
+        return $return;
+    }
+
+/**
+ * Chiffre le mot de passe, s’il y en a un.
+ */
+    protected function _hashPassword() {
+        if ( isset( $this->data[$this->alias]['password']) ) {
+            $passwordHasher = new SimplePasswordHasher();
+            $passwordHasher->config(array('hashType' => 'sha1'));
+            $this->data[$this->alias]['password'] = $passwordHasher->hash($this->data[$this->alias]['password']);
+        }
+    }
 
 }

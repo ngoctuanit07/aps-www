@@ -15,6 +15,21 @@ class AdminsController extends AppController {
  */
 	public $components = array('Paginator');
 
+
+public function beforeFilter(){
+	parent::beforeFilter();
+        $this->Auth->allow('home');
+}
+
+public function home() {
+	if (!$this->Session->read('Auth.User')) {
+		$this->redirect($this->Auth->logout());
+	}
+
+	$this->set(compact(
+   ));
+}
+
 /**
  * index method
  *
@@ -24,6 +39,33 @@ class AdminsController extends AppController {
 		$this->Admin->recursive = 0;
 		$this->set('admins', $this->Paginator->paginate());
 	}
+
+
+public function login() {
+    if ($this->Session->read('Auth.User')) {
+    	debug('je suis connecté !'); die();
+        $this->redirect('/');
+    }
+    if ($this->request->is('post')) {
+    	debug('il y a une requete de formulaire');
+        if ($this->Auth->login()) {
+            return $this->redirect($this->Auth->redirect());
+        } else {
+			$this->layout = 'unsigned';
+    		$this->render();
+        }
+
+    }
+    else {
+    	$this->layout = 'unsigned';
+    	$this->render();
+    }
+} // end login
+
+
+public function logout() {
+        $this->redirect($this->Auth->logout());
+    } // end logout
 
 /**
  * view method
