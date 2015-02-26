@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connexion | APS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Assistant Prévention Suicide</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <a href="login.html" class="btn btn-default navbar-btn navbar-right">Connexion / Inscription</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Assistant Prévention Suicide</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="home.html">
+              <fieldset>
+                <legend>Connexion</legend>
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-3 control-label">Identifiant</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Login ou email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-3 control-label">Mot de passe</label>
+                  <div class="col-sm-9">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Votre mot de passe">
+                    <p class="help-block">
+                      <a class="btn btn-link" data-toggle="modal" data-target="#myModal">
+                        Mot de passe oublié ?
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-9">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Se rappeler de moi
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-9">
+                    <button type="submit" class="btn btn-primary">Se connecter</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <form class="form-horizontal">
+            <fieldset>
+              <legend>Inscription</legend>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 control-label">Identifiant</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="un@exemple.fr">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-4 control-label">Mot de passe</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Votre mot de passe">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-4 control-label">Confirmation</label>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Confirmez votre mot de passe">
+                </div>
+              </div>00
+              <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-8">
+                  <button type="submit" class="btn btn-default">S'inscrire</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+<!-- Modal forgotten password -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Mot de passe oublié</h4>
+          </div>
+          <div class="modal-body">
+            <p>Si vous avez oublié votre mot de passe, un message peut vous etre envoyer pour vous permettre de le changer.</p>
+            <p>Pour cela, Merci d'indiquer votre adresse email dans le formulaire ci-dessous.</p>
+            <form class="form-horizontal">
+              <fieldset>
+              <legend>Formulaire</legend>
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                  <div class="col-sm-9">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Votre email">
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-primary">Envoyer le mail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
